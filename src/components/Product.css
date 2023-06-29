@@ -1,0 +1,182 @@
+/* css div-nav*/
+
+.div-nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid;
+}
+
+.logo-search {
+  font-size: 24px;
+  position: absolute;
+  top: 74px;
+  left: 20px;
+}
+
+.div-search input[type="text"] {
+  border: none;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 32px;
+  padding-inline: 30px;
+}
+
+.div-search input[type="text"]:focus {
+  border: none;
+  outline: 2px solid #f06;
+}
+
+.div-harga {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.div-harga input[type="number"] {
+  border: none;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 32px;
+  padding-inline: 8px;
+}
+
+.div-harga input[type="number"]:focus {
+  border: none;
+  outline: 2px solid #f06;
+}
+
+.div-min {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-sortby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.div-sortby select {
+  border: none;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 32px;
+  padding-inline: 6px;
+}
+
+.div-sortby select:focus {
+  border: none;
+  outline: 2px solid #f06;
+}
+
+/* css main */
+
+.main-product {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.div-product {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #f06;
+  background-color: #000;
+  border-radius: 16px;
+  padding: 32px 32px;
+  width: 250px;
+}
+
+.main-product img {
+  max-width: 100px;
+  border-radius: 8px;
+  padding: 4px 4px;
+  background-color: #ddd;
+}
+
+.div-button-beh {
+  display: flex;
+  justify-content: space-between;
+
+  & button {
+    height: 55px;
+    border: none;
+    border-radius: 55px;
+    color: #fff;
+    background-color: #f06;
+    padding-inline: 16px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    > .logo-beli {
+      font-size: 24px;
+    }
+
+    > .logo-edit {
+      font-size: 24px;
+    }
+
+    > .logo-delete {
+      font-size: 24px;
+    }
+  }
+
+  & .div-button-edde {
+    display: flex;
+    gap: 6px;
+  }
+
+  & button:hover {
+    color: black;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.div-page {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.div-page p {
+  display: flex;
+  align-items: center;
+  padding-inline: 13px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 1000px;
+  background-color: #fff;
+}
+
+.div-page button {
+  height: 32px;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #f06;
+  padding-inline: 16px;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.div-page button:hover {
+  color: black;
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+}
